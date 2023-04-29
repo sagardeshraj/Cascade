@@ -1,0 +1,256 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar-right{
+     font-size: 1.4rem;
+}
+
+.navbar-header a > span {
+    font-weight: 1000;
+}
+
+.home {
+    background-image: url("../img/wall.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-left, .home-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-left h1,h3{
+    margin: 0px;
+    color: white;
+}
+
+.home-right p{
+    color: white;
+    font-size: 1.90rem;
+}
+
+#extra-bar{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.extra-bar-content{
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#extra-bar button{
+    background-color: transparent;
+    color: black;
+    width: 30%;
+    padding: 5px 0; 
+    font-size: 1.25rem;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.page-header{
+    border-bottom: 0px;
+}
+
+#featured{
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+}
+
+#featured hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+    margin-bottom: 40px;
+}
+
+.carousel-inner > .item > img {
+    width:100%;
+    height:500px;
+}
+
+#services .row div{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .row div h3{
+    color: white;
+    text-align: center;  
+}
+
+#services hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+    margin-bottom: 40px;
+}
+
+#about-us{
+    background-color: #323234;
+    color: white;
+}
+
+#about-us ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#about-us hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+}
+
+.thumbnail{
+    padding: 0px;
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+
+.thumbnail .caption{
+    color: white;
+}
+
+.thumbnail img{
+    height: 250px;
+    width: 100%;
+}
+
+.thumbnail hr{
+    width: 100%!important;
+    margin: 0px;
+}
+
+#testimonials{
+    padding-bottom: 30px;
+}
+
+#testimonials h2{
+    color: #717171;
+}
+
+.testimonial-text{
+    color: #646464;
+    padding-bottom: 40px;
+}
+
+.testimonial-author{
+    text-align: center;
+}
+
+#testimonials hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+    margin-bottom: 40px;
+}
+
+#contact-us{
+    background-color: #2B63C2;
+}
+
+#contact-us h3{
+    color: white;
+    padding: 30px 0;
+}
+
+#contact h2{ 
+    color: white;
+}
+
+#contact-us h3 > span{
+    font-weight: 1000;
+}
+
+#contact-us hr{
+    width: 30px;
+    border-top: 1px solid white;
+    margin-bottom: 40px;
+}
+
+#contact-us button{
+    width: 100%;
+    padding: 6px 12px;
+    background-color: #204A92;
+    color: white;
+    border: 0px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+}
+
+#contact-us ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 40%;
+    margin: 50px auto;
+}
+
+.newsletter-form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.newsletter-form input{
+    border-radius: 0px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border: 1px solid white;
+    padding: 20px 0px;
+}
+
+.validationText{
+    color:rgb(243, 83, 83);
+    display:none;
+    text-align: center
+}
+
+.newsletter-form p{
+    margin: 0px;
+}
+
+#pinterest{
+    margin-top: -8px;
+}
+
+#footer{
+    background-color: rgb(56, 56, 56);
+    padding: 20px 0 20px 0;
+}
+
+footer .navbar-nav>li>a{
+    color: rgb(161, 159, 159);
+    font-size: 0.99rem;
+}
+
+.navbar-nav>li>a:hover{
+    background-color: rgb(56, 56, 56); 
+    color: white;
+}
